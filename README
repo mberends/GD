@@ -1,0 +1,12 @@
+GD.pm6 - Interface to the GD graphics library
+
+GD.pm6 is a Perl 6 interface to Thomas Boutell's GD graphics library.
+GD allows you to create and manipulate images using a large number of
+graphics primitives, and emit the drawings as PNG or JPEG files.
+
+The API is designed to match that of the Perl 5 library, to simplify the
+translation of Perl 5 GD programs to Perl 6.
+
+GD.pm6 depends on NativeCall.pm6 from Jonathan Worthington's Zavolaj
+project.  It extends the initial proof of concept code found in the
+gd2-basic.p6 script in Zavolaj's examples directory.
